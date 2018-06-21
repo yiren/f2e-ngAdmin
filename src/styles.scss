@@ -1,1 +1,72 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #F2F2F2;
+}
+
+.revenue {
+    color: #F5A623
+}
+
+.cost {
+    color: #D0021B;
+}
+
+.income {
+    color: #4A90E2;
+}
+
+.sale-up-icon {
+    color: #7ED321;
+}
+
+.sale-down-icon {
+    color: #D0021B;
+}
+
+.paid-button .published-button {
+    background-color: #7ED321;
+}
+
+.shipping-button {
+    background-color: #F5A623;
+}
+
+.done-button {
+    background-color: #4A90E2;
+}
+
+.unpaid-button .unpublished-button {
+    background-color: #9B9B9B
+}
+
+.add-product-button {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.sale-tooltip {
+    background: #000000;
+}
+
+.sale-tooltip-subtitle {
+    font-size: 12px;
+    font-style: italic;
+    color: #9B9B9B;
+}
+
+.sale-tooltip-title {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.sale-tooltip-view {
+    font-size: 18px;
+    background-color: #7ED321;
+}
+
+.container {
+    max-width: 940px;
+    height: 70px;
+}

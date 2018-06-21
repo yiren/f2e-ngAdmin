@@ -97,6 +97,12 @@
   dependencies:
     tslib "^1.9.0"
 
+"@angular/cdk@^6.3.0":
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/@angular/cdk/-/cdk-6.3.0.tgz#fd914e4e145e48db1d51f38012178b97ddb78772"
+  dependencies:
+    tslib "^1.7.1"
+
 "@angular/cli@~6.0.5":
   version "6.0.8"
   resolved "https://registry.yarnpkg.com/@angular/cli/-/cli-6.0.8.tgz#65070958b944be30053232c51f8449b7ddd4d92a"
@@ -141,6 +147,12 @@
   dependencies:
     tslib "^1.9.0"
 
+"@angular/flex-layout@^6.0.0-beta.16":
+  version "6.0.0-beta.16"
+  resolved "https://registry.yarnpkg.com/@angular/flex-layout/-/flex-layout-6.0.0-beta.16.tgz#e2749c2609743ff4655b09ae8873709c7a62aeae"
+  dependencies:
+    tslib "^1.7.1"
+
 "@angular/forms@^6.0.3":
   version "6.0.5"
   resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-6.0.5.tgz#d3ec7886d8b61a97b2c0b7501b304b449a2dcae6"
@@ -156,6 +168,18 @@
 "@angular/language-service@^6.0.3":
   version "6.0.5"
   resolved "https://registry.yarnpkg.com/@angular/language-service/-/language-service-6.0.5.tgz#824c8cb43ab3976ddb9442ba39562e1dd0108155"
+
+"@angular/material-moment-adapter@^6.2.1":
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/@angular/material-moment-adapter/-/material-moment-adapter-6.3.0.tgz#2a781be160091571bc4186dab2cd0ce61d19d55c"
+  dependencies:
+    tslib "^1.7.1"
+
+"@angular/material@^6.3.0":
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/@angular/material/-/material-6.3.0.tgz#c78ca3c0d9651d4d8786b9693a83dca0916cfe01"
+  dependencies:
+    tslib "^1.7.1"
 
 "@angular/platform-browser-dynamic@^6.0.3":
   version "6.0.5"
@@ -175,6 +199,22 @@
   dependencies:
     tslib "^1.9.0"
 
+"@ngrx/router-store@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@ngrx/router-store/-/router-store-6.0.1.tgz#1c5c77b138eaed030b58f4203bf921e88cc51112"
+
+"@ngrx/schematics@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@ngrx/schematics/-/schematics-6.0.1.tgz#f6ff797faf1f46d5cdb980719d97b9991cca515f"
+
+"@ngrx/store-devtools@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@ngrx/store-devtools/-/store-devtools-6.0.1.tgz#6049208d1ef8dc5f1f96ffc63373eab2d72f957c"
+
+"@ngrx/store@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@ngrx/store/-/store-6.0.1.tgz#02c806ce20c698b997e81f5671e0edc07d32cf86"
+
 "@ngtools/webpack@6.0.8":
   version "6.0.8"
   resolved "https://registry.yarnpkg.com/@ngtools/webpack/-/webpack-6.0.8.tgz#a05bce526aee9da62bb230a95fba83fee99d0bca"
@@ -182,6 +222,46 @@
     "@angular-devkit/core" "0.6.8"
     tree-kill "^1.0.0"
     webpack-sources "^1.1.0"
+
+"@progress/kendo-angular-l10n@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-angular-l10n/-/kendo-angular-l10n-1.2.0.tgz#314a84dfea1255067a4dcd1ef7928f63f067b5ef"
+  dependencies:
+    tslib "^1.7.0"
+
+"@progress/kendo-angular-menu@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-angular-menu/-/kendo-angular-menu-0.4.0.tgz#bbd8eb1450bce55bf59749c0c091098923aaa6ae"
+  dependencies:
+    "@progress/kendo-angular-popup" "^2.2.0"
+    "@progress/kendo-schematics" "^0.2.0"
+    tslib "^1.7.0"
+
+"@progress/kendo-angular-popup@^2.2.0":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-angular-popup/-/kendo-angular-popup-2.4.1.tgz#732fd06e8960c95130a533e09eb6c2383b58911c"
+  dependencies:
+    "@progress/kendo-popup-common" "^1.6.0"
+    "@progress/kendo-schematics" "^0.2.0"
+    tslib "^1.7.0"
+
+"@progress/kendo-popup-common@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-popup-common/-/kendo-popup-common-1.6.0.tgz#aabe9af0e1eff03ba618dd6d0dad56ba7d4463be"
+
+"@progress/kendo-schematics@^0.2.0":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-schematics/-/kendo-schematics-0.2.3.tgz#c807b476fcbfa35aad6328056482c82e58131441"
+
+"@progress/kendo-theme-bootstrap@^2.13.6":
+  version "2.13.6"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-theme-bootstrap/-/kendo-theme-bootstrap-2.13.6.tgz#f3cdec09d8a26b48a83cb7a24dbd9506ed47c348"
+  dependencies:
+    "@progress/kendo-theme-default" "^2.54.0"
+
+"@progress/kendo-theme-default@^2.54.0", "@progress/kendo-theme-default@latest":
+  version "2.54.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-theme-default/-/kendo-theme-default-2.54.0.tgz#79c415a36cd89c1dc6482da26a222cabba4c52be"
 
 "@schematics/angular@0.6.8":
   version "0.6.8"
@@ -3926,6 +4006,10 @@ mkdirp@0.5.x, "mkdirp@>=0.5 0", mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.0:
   dependencies:
     minimist "0.0.8"
 
+moment@^2.22.2:
+  version "2.22.2"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.22.2.tgz#3c257f9839fc0e93ff53149632239eb90783ff66"
+
 move-concurrently@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/move-concurrently/-/move-concurrently-1.0.1.tgz#be2c005fda32e0b29af1f05d7c4b33214c701f92"
@@ -4000,6 +4084,10 @@ neo-async@^2.5.0:
 next-tick@1:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
+
+ngx-bootstrap@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/ngx-bootstrap/-/ngx-bootstrap-3.0.0.tgz#563368404dd71962e2ef8eee21794c6aeaab4490"
 
 no-case@^2.2.0:
   version "2.3.2"
@@ -5117,6 +5205,10 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   dependencies:
     aproba "^1.1.1"
 
+rxjs-compat@^6.0.0:
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/rxjs-compat/-/rxjs-compat-6.2.1.tgz#f5a5e4bd700db414e82aa7cb34e5c9222c6d3756"
+
 rxjs@^6.0.0:
   version "6.2.1"
   resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.2.1.tgz#246cebec189a6cbc143a3ef9f62d6f4c91813ca1"
@@ -5938,7 +6030,7 @@ tsickle@^0.29.0:
     source-map "^0.6.0"
     source-map-support "^0.5.0"
 
-tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
+tslib@^1.7.0, tslib@^1.7.1, tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
   version "1.9.2"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.2.tgz#8be0cc9a1f6dc7727c38deb16c2ebd1a2892988e"
 

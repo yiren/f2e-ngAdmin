@@ -1,0 +1,33 @@
+.header {
+    width: 100%;
+    background-color: #000000;
+    height: 70px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.user {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.link-block {
+    &:hover {
+        color: #ffffff;
+        border-bottom: 3px solid #ffffff;
+    }
+}
+
+.link {
+    font-size: 16px;
+    color: #9B9B9B;
+    text-decoration: none;
+    line-height: 70px;
+    display: inline-block;
+    &:hover {
+        color: #ffffff;
+    }
+}
