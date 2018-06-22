@@ -1,37 +1,181 @@
 <div class="container">
-    <div class="top">
-        <div class="top-title">
-            OVERVIEW
-        </div>
-        <div fxFlex fxLayoutAlign="end end">
-            <div>
-                <span class="top-side-date">2018/6/6</span><span class="fas fa-angle-right"></span><span class="top-side-date">2018/6/13</span>
+    <div fxLayout="column" fxLayoutGap="15px">
+        <div class="top-block">
+            <div class="top-title">
+                OVERVIEW
             </div>
+            <div fxFlex fxLayoutAlign="end end">
+                <div>
+                    <span class="top-side-date">2018/6/6</span><span class="fas fa-angle-right"></span><span class="top-side-date">2018/6/13</span>
+                </div>
 
-        </div>
-    </div>
-    <div class="summary-block" fxLayout fxLayoutGap="10px">
-        <div class="summary-card" fxLayout="column" fxLayoutAlign="center center">
-            <div>
-                <span class="fas fa-dollar-sign"></span><span class="summary-title">TOTAL REVENUE</span>
-            </div>
-            <div>
-                <span style="font-size: 36px;color:#7ED321">54,540</span>
             </div>
         </div>
-        <div class="summary-card" fxLayout="column" fxLayoutAlign="center center">
-
+        <div class="summary-block" fxLayout fxLayoutAlign="space-between">
+            <div class="summary-card" fxLayout="column" fxLayoutAlign="center center">
+                <div>
+                    <span class="fas fa-dollar-sign"></span><span class="summary-title">TOTAL REVENUE</span>
+                </div>
+                <div>
+                    <span style="font-size: 36px;color:#7ED321">54,540</span>
+                </div>
+            </div>
+            <div class="summary-card" fxLayout="column" fxLayoutAlign="center center">
+                <div>
+                    <span class="fas fa-boxes"></span><span class="summary-title">TOTAL COST</span>
+                </div>
+                <div>
+                    <span style="font-size: 36px;color:#D0021B">12,660</span>
+                </div>
+            </div>
+            <div class="summary-card" fxLayout="column" fxLayoutAlign="center center">
+                <div>
+                    <span class="fas fa-money-bill"></span><span class="summary-title">NET INCOME</span>
+                </div>
+                <div>
+                    <span style="font-size: 36px;color:#4A90E2">41,880</span>
+                </div>
+            </div>
         </div>
-        <div class="summary-card" fxLayout="column" fxLayoutAlign="center center">
 
+        <div class="chart-block">
+            chart
+        </div>
+
+        <div class="recent-news-block" fxLayout fxLayoutGap="20px">
+            <div class="sub-news-block">
+                <div class="sub-news-title">Transaction Website</div>
+                <div style="height: 300px;;" fxLayout="column" fxLayoutAlign="space-between" fxLayoutGap="10px">
+                    <div class="news-item" fxLayout fxLayoutAlign="space-around center" fxLayoutGap="10px">
+                        <span class="brand-icon fab fa-facebook-square"></span>
+                        <span class="brand-text">Facebook.com</span>
+                        <span class="transaction-amount">45,836</span>
+                        <div class="percentage-up" fxLayoutGap="5px" [tooltip]="popTemplateForUp">
+                            <span style="display: inline-block" class="fas fa-arrow-up"></span>
+                            <span>20%</span>
+                        </div>
+                    </div>
+                    <div class="news-item" fxLayout fxLayoutAlign="space-around center" fxLayoutGap="10px">
+                        <span class="brand-icon fab fa-google"></span>
+                        <span class="brand-text">Google.com</span>
+                        <span class="transaction-amount">23,582</span>
+                        <div class="percentage-up" fxLayoutGap="5px" [tooltip]="popTemplateForUp">
+                            <span style="display: inline-block" class="fas fa-arrow-up"></span>
+                            <span>12%</span>
+                        </div>
+                    </div>
+                    <div class="news-item" fxLayout fxLayoutAlign="space-around center" fxLayoutGap="10px">
+                        <span class="brand-icon fab fa-amazon"></span>
+                        <span class="brand-text">Amazon.com</span>
+                        <span class="transaction-amount">2,489</span>
+                        <div class="percentage-down" fxLayoutGap="5px" [tooltip]="popTemplateForDown">
+                            <span style="display: inline-block" class="fas fa-arrow-down"></span>
+                            <span>15%</span>
+                        </div>
+                    </div>
+                    <div class="news-item" fxLayout fxLayoutAlign="space-around center" fxLayoutGap="10px">
+                        <span class="brand-icon fab fa-wordpress"></span>
+                        <span class="brand-text">WordPress.com</span>
+                        <span class="transaction-amount">1,057</span>
+                        <div class="percentage-down" fxLayoutGap="5px" [tooltip]="popTemplateForDown">
+                            <span style="display: inline-block" class="fas fa-arrow-up"></span>
+                            <span>30%</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="sub-news-block">
+                <div class="sub-news-title">Last Orders</div>
+                <div fxLayout="column" fxLayoutGap="2px">
+                    <div class="order-block" fxLayout fxLayoutGap="15px">
+                        <img src="https://picsum.photos/100/?random" alt="">
+                        <div fxLayout="column" fxLayoutGap="5px">
+                            <span class="order-text">Vintage T-shirt</span>
+                            <div fxLayout>
+                                <div fxFlex="200px">
+                                    <span class="fas fa-clock order-sub-icon"></span>
+                                    <span class="order-sub-info">2018/6/13 13:42</span>
+                                </div>
+                                <div fxFlex fxLayoutAlign="end end" class="order-total-text">
+                                    <span style="display: inline-block">Total</span>
+                                </div>
+                            </div>
+
+                            <div fxLayout>
+                                <div fxFlex="200px">
+                                    <span style="font-size: 20px;" class="fas fa-male order-sub-icon"></span>
+                                    <span class="order-sub-info">Belle Wills</span>
+                                </div>
+                                <div fxLayoutAlign="end end" class="order-price">3,200</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order-block" fxLayout fxLayoutGap="15px">
+                        <img src="https://picsum.photos/100/?random" alt="">
+                        <div fxLayout="column" fxLayoutGap="5px">
+                            <span class="order-text">CowBoy Jacket</span>
+                            <div fxLayout>
+                                <div fxFlex="200px">
+                                    <span class="fas fa-clock order-sub-icon"></span>
+                                    <span class="order-sub-info">2018/6/13 10:45</span>
+                                </div>
+                                <div fxFlex fxLayoutAlign="end end" class="order-total-text">
+                                    <span style="display: inline-block">Total</span>
+                                </div>
+                            </div>
+
+                            <div fxLayout>
+                                <div fxFlex="200px">
+                                    <span style="font-size: 20px;" class="fas fa-male order-sub-icon"></span>
+                                    <span class="order-sub-info">Adrian Cummings</span>
+                                </div>
+                                <div fxLayoutAlign="end end" class="order-price">2,800</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order-block" fxLayout fxLayoutGap="15px">
+                        <img src="https://picsum.photos/100/?random" alt="">
+                        <div fxLayout="column" fxLayoutGap="5px">
+                            <span class="order-text">Coach Coat</span>
+                            <div fxLayout>
+                                <div fxFlex="200px">
+                                    <span class="fas fa-clock order-sub-icon"></span>
+                                    <span class="order-sub-info">2018/6/13 8:42</span>
+                                </div>
+                                <div fxFlex fxLayoutAlign="end end" class="order-total-text">
+                                    <span style="display: inline-block">Total</span>
+                                </div>
+                            </div>
+
+                            <div fxLayout>
+                                <div fxFlex="200px">
+                                    <span style="font-size: 20px;" class="fas fa-male order-sub-icon"></span>
+                                    <span class="order-sub-info">Lura Holland</span>
+                                </div>
+                                <div fxLayoutAlign="end end" class="order-price">1,600</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
         </div>
     </div>
 
-    <div class="chart-block">
-
-    </div>
-
-    <div class="recent-news-block">
-
-    </div>
 </div>
+
+<ng-template #popTemplateForUp>
+    <div fxLayout='column'>
+        <span class='tooltip-title'>INCREASES <span class='tooltip-amount-up'>899</span> VIEWS</span>
+        <span class='tooltip-subtitle'>last week:44,936</span>
+    </div>
+</ng-template>
+
+<ng-template #popTemplateForDown>
+    <div fxLayout='column'>
+        <span class='tooltip-title'>INCREASES <span class='tooltip-amount-down'>399</span> VIEWS</span>
+        <span class='tooltip-subtitle'>last week:936</span>
+    </div>
+</ng-template>
