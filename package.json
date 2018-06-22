@@ -30,6 +30,7 @@
     "@progress/kendo-angular-menu": "^0.4.0",
     "@progress/kendo-theme-bootstrap": "^2.13.6",
     "@progress/kendo-theme-default": "latest",
+    "@swimlane/ngx-charts": "^8.1.0",
     "core-js": "^2.5.4",
     "lodash": "^4.17.10",
     "moment": "^2.22.2",

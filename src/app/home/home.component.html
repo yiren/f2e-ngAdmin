@@ -7,6 +7,7 @@
             <div fxFlex fxLayoutAlign="end end">
                 <div>
                     <span class="top-side-date">2018/6/6</span><span class="fas fa-angle-right"></span><span class="top-side-date">2018/6/13</span>
+
                 </div>
 
             </div>
@@ -39,7 +40,10 @@
         </div>
 
         <div class="chart-block">
-            chart
+            <div class="sub-news-title">Activity</div>
+            <ngx-charts-line-chart [view]="view" [scheme]="colorScheme" [results]="multi" [gradient]="gradient" [xAxis]="showXAxis" [yAxis]="showYAxis" [legend]="false" [showXAxisLabel]="showXAxisLabel" [showYAxisLabel]="showYAxisLabel" [xAxisLabel]="xAxisLabel"
+                [yAxisLabel]="yAxisLabel" [autoScale]="autoScale" (select)="onSelect($event)">
+            </ngx-charts-line-chart>
         </div>
 
         <div class="recent-news-block" fxLayout fxLayoutGap="20px">
